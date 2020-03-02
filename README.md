@@ -4,7 +4,7 @@
 
 **To Run:** `javac *.java ` `java Main.java`
 
-**Language and Environment: ** Java, IntelliJ
+**Language and Environment:** Java, IntelliJ
 
 **Description/ Assumptions:**
 

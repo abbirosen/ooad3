@@ -2,9 +2,9 @@
 
 ##### Maura Winstanley, Kara Wallace, Abbigail Nicholson
 
-**To Run:** `javac *.java -d classes ` `java -cp classes Main.java`
+**To Run:** `javac *.java ` `java Main.java`
 
-**Language and Environment: ** Java, IntelliJ
+**Language and Environment:** Java, IntelliJ
 
 **Description/ Assumptions:**
 

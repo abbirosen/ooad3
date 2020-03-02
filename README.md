@@ -3,6 +3,7 @@
 ##### Maura Winstanley, Kara Wallace, Abbigail Nicholson
 
 **To Run:** `javac *.java ` `java Main.java`
+**to run tests** mvn tests
 
 **Language and Environment:** Java, IntelliJ
 

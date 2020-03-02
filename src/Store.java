@@ -245,4 +245,8 @@ public class Store {
         return this.name;
     }
 
+    public int getCustomersSize(){
+        return this.customers.size();
+    }
+
 }

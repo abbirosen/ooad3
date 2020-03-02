@@ -61,9 +61,9 @@ public class TestOne {
     }
     @Test
     public void customer_names() {
-        Assert.assertTrue(casual_cust.name == "cascustomer");
-        Assert.assertTrue(reg_cust.name == "regcust");
-        Assert.assertTrue(bus_cust.name == "buscust");
+        Assert.assertTrue(casual_cust.getCustName() == "cascustomer");
+        Assert.assertTrue(reg_cust.getCustName() == "regcust");
+        Assert.assertTrue(bus_cust.getCustName() == "buscust");
 
     }
 
@@ -71,21 +71,21 @@ public class TestOne {
 
     @Test
     public void car_name(){
-        Assert.assertTrue(standard_car.name =="Standard");
-        Assert.assertTrue(minivan_car.name =="Minivan");
-        Assert.assertTrue(lux_car.name =="Luxury");
-        Assert.assertTrue(suv_car.name=="SUV");
-        Assert.assertTrue(economy_car.name=="Economy");
+        Assert.assertTrue(standard_car.getCarType() =="STANDARDCAR");
+        Assert.assertTrue(minivan_car.getCarType() =="MINIVANCAR");
+        Assert.assertTrue(lux_car.getCarType() =="LUXURYCAR");
+        Assert.assertTrue(suv_car.getCarType()=="SUVCAR");
+        Assert.assertTrue(economy_car.getCarType()=="ECONOMYCAR");
     }
 
-    @Test
-    public void car_id() {
-        Assert.assertTrue(standard_car.get_id() == 4);
-        Assert.assertTrue(minivan_car.get_id() == 5);
-        Assert.assertTrue(lux_car.get_id() == 2);
-        Assert.assertTrue(suv_car.get_id() == 1);
-        Assert.assertTrue(economy_car.get_id() == 3);
-    }
+//    @Test
+//    public void car_id() {
+//        Assert.assertTrue(standard_car.get_id() == 4);
+//        Assert.assertTrue(minivan_car.get_id() == 5);
+//        Assert.assertTrue(lux_car.get_id() == 2);
+//        Assert.assertTrue(suv_car.get_id() == 1);
+//        Assert.assertTrue(economy_car.get_id() == 3);
+//    }
 
     @Test
     public void car_rate() {
@@ -120,7 +120,7 @@ public class TestOne {
 
     @Test
     public void customers_size() {
-        Assert.assertTrue(store.get_customers().size() == 12);
+        Assert.assertTrue(store.getCustomersSize() == 12);
     }
 
 
